@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
+import "dart:ui" show Color;
 
 void main() => runApp(BMICalculator());
 
 class BMICalculator extends StatelessWidget {
+  final Widget cardWidget;
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
