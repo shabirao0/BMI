@@ -29,7 +29,7 @@ class _InputPageState extends State<InputPage> {
             child: Row(
               children: <Widget>[
                 Expanded(
-                  child: Container(
+                  child:Container(
                     margin: EdgeInsets.all(15.0),
                     decoration: BoxDecoration(
                         color: Color(0xFF1D1E33),
